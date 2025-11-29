@@ -18,9 +18,9 @@ public class Main {
 
             if (choice == 1) {
                 System.out.println("écris ta tâche :");
-                String nom = scanner.nextLine()
+                String nom = scanner.nextLine();
                 tâches.add(nom);
-                System.out.println("tâche ajoutée !:");
+                System.out.println("tâche ajoutée !:"); // une tache a ete ajoutée
             } 
             
             else if (choice == 2) {
@@ -29,8 +29,8 @@ public class Main {
                 if (tâches.isEmpty()) {
                     System.out.println("Aucune tâche pour le moment.");
                 } else {
-                    for (int i = 0; i < tâches.size(); i++);{
-                        System.out.println((i + 1) + ". " +tâches.get(i);
+                    for (int i = 0; i < tâches.size(); i++){
+                        System.out.println((i + 1) + ". " +tâches.get(i));
                     }
                 }
             }
